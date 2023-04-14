@@ -1,1 +1,22 @@
-./idea
+.idea/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Spring Boot
+/target/
+!**/target/*.jar
+
+# JPA
+*.log
+
+# Angular
+node_modules/
+/dist/
+
+# MySQL
+*.sql
+*.sql.gz
+*.sql.zip
